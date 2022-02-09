@@ -1,0 +1,85 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkgreen;
+    margin: 0
+    padding: 0;
+}
+
+body{
+    width: 300px;
+    height: 100vh;
+    padding: 10px;
+}
+
+header{
+    margin-bottom: 1rem;
+    padding: 10px;
+    text-align: center;
+    background-color: palevioletred;
+    color: whitesmoke;
+}
+
+h1{
+margin: 0;
+font-size: 1.6rem;
+}
+
+.new-label{
+    display: none;
+}
+
+.new{
+    display: flex;
+    margin-bottom: 1rem;
+
+}
+
+.new-input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    font-size: 1.2rem;
+}
+
+.new-button{
+    border: 0;
+    padding: 0 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    background-color: #af7eeb;
+    cursor: pointer;
+}
+
+
+.item{
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+}
+
+.item-check{
+    margin-right: 1rem;
+}
+
+.item-text{
+    color: #6d748a;
+}
+
+.delete{
+    width 20px;
+    margin-left: auto;
+    border: 0;
+    color: transparent;
+    background url (https://cdn.glitch.com/f961eba8-228f-46a7-a1bc-a4b0b7dc17e2%2Fbin.png?v=1621165175709); no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    
+}
+
+::selection{
+    color: ffff;
+    background: rgb(142, 73, 232);
+}
